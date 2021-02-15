@@ -7,7 +7,7 @@
 
 // Set correspondency between pixel color code (decimal base) and world element type.
 define("WATER_COLOR_INDEX", 10410486);
-define("LAND_GRASS_INDEX", 0);
+define("LAND_GRASS_COLOR_INDEX", 0);
 
 // Prepare image.
 $src = $argv[1];

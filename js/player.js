@@ -12,8 +12,6 @@ const WALKING_SPEED = 1;
 const RUNNING_SPEED = 2;
 
 let Player = (() => {
-	let _frameWidth = 16;
-	let _frameHeight = 18;
 	let _scaledWidth = SCALE * FRAME_WIDTH;
   	let _scaledHeight = SCALE * FRAME_HEIGHT;
 	let _currentDirection = FACING_DOWN;
